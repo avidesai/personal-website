@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row';
 
 import Card from "../components/Card";
 
-import astarr from "../assets/images/astar.jpeg";
+import astarr from "../assets/images/astar.png";
 import stellar from "../assets/images/stellar.png";
 import robocar from "../assets/images/robocar.gif";
 
@@ -17,9 +17,9 @@ class Carousel extends React.Component{
                 {
                     id: 0,
                     title: 'Robot Path Planning',
-                    subTitle: 'The cookbook for developers',
+                    subTitle: 'using a star algorithm to perform efficient multi-robot path planning',
                     imgSrc: astarr,
-                    link: 'https://en.wikipedia.org/wiki/A*_search_algorithm',
+                    link: 'https://github.com/avidesai/path-planner',
                     selected: false
                 },
                 {
